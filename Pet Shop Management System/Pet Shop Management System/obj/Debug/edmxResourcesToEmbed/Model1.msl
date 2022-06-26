@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище dbPetShopModelContainer" CdmEntityContainer="dbPetShopEntities">
+    <EntitySetMapping Name="tbCash">
+      <EntityTypeMapping TypeName="dbPetShopModel.tbCash">
+        <MappingFragment StoreEntitySet="tbCash">
+          <ScalarProperty Name="cashid" ColumnName="cashid" />
+          <ScalarProperty Name="transno" ColumnName="transno" />
+          <ScalarProperty Name="pcode" ColumnName="pcode" />
+          <ScalarProperty Name="pname" ColumnName="pname" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="cid" ColumnName="cid" />
+          <ScalarProperty Name="cashier" ColumnName="cashier" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbCustomer">
+      <EntityTypeMapping TypeName="dbPetShopModel.tbCustomer">
+        <MappingFragment StoreEntitySet="tbCustomer">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbProduct">
+      <EntityTypeMapping TypeName="dbPetShopModel.tbProduct">
+        <MappingFragment StoreEntitySet="tbProduct">
+          <ScalarProperty Name="pcode" ColumnName="pcode" />
+          <ScalarProperty Name="pname" ColumnName="pname" />
+          <ScalarProperty Name="ptype" ColumnName="ptype" />
+          <ScalarProperty Name="pcategory" ColumnName="pcategory" />
+          <ScalarProperty Name="pqty" ColumnName="pqty" />
+          <ScalarProperty Name="pprice" ColumnName="pprice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbUser">
+      <EntityTypeMapping TypeName="dbPetShopModel.tbUser">
+        <MappingFragment StoreEntitySet="tbUser">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="dob" ColumnName="dob" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

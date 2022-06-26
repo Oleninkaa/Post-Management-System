@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище dbPetShopModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tbCash">
+    <Key>
+      <PropertyRef Name="cashid" />
+    </Key>
+    <Property Name="cashid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="transno" Type="varchar" MaxLength="15" />
+    <Property Name="pcode" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="pname" Type="varchar" MaxLength="50" />
+    <Property Name="qty" Type="int" />
+    <Property Name="price" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="total" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="cid" Type="varchar" MaxLength="10" />
+    <Property Name="cashier" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tbCustomer">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="30" />
+    <Property Name="address" Type="varchar" MaxLength="100" />
+    <Property Name="phone" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tbProduct">
+    <Key>
+      <PropertyRef Name="pcode" />
+    </Key>
+    <Property Name="pcode" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="pname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ptype" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="pcategory" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="pqty" Type="int" Nullable="false" />
+    <Property Name="pprice" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbUser">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="address" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="phone" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="role" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="dob" Type="date" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="Хранилище dbPetShopModelContainer">
+    <EntitySet Name="tbCash" EntityType="Self.tbCash" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbCustomer" EntityType="Self.tbCustomer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbProduct" EntityType="Self.tbProduct" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbUser" EntityType="Self.tbUser" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

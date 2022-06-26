@@ -1,0 +1,35 @@
+D:\Pet Shop Management System\Pet Shop Management System\bin\Debug\Pet Shop Management System.exe.config
+D:\Pet Shop Management System\Pet Shop Management System\bin\Debug\Pet Shop Management System.exe.manifest
+D:\Pet Shop Management System\Pet Shop Management System\bin\Debug\Pet Shop Management System.application
+D:\Pet Shop Management System\Pet Shop Management System\bin\Debug\Pet Shop Management System.exe
+D:\Pet Shop Management System\Pet Shop Management System\bin\Debug\Pet Shop Management System.pdb
+D:\Pet Shop Management System\Pet Shop Management System\bin\Debug\EntityFramework.dll
+D:\Pet Shop Management System\Pet Shop Management System\bin\Debug\EntityFramework.SqlServer.dll
+D:\Pet Shop Management System\Pet Shop Management System\bin\Debug\Guna.UI2.dll
+D:\Pet Shop Management System\Pet Shop Management System\bin\Debug\EntityFramework.xml
+D:\Pet Shop Management System\Pet Shop Management System\bin\Debug\EntityFramework.SqlServer.xml
+D:\Pet Shop Management System\Pet Shop Management System\bin\Debug\ru\EntityFramework.resources.dll
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Postal management system.csproj.AssemblyReference.cache
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Postal management system.csproj.SuggestedBindingRedirects.cache
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet_Shop_Management_System.CashCustomer.resources
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet_Shop_Management_System.CashForm.resources
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet_Shop_Management_System.CashProduct.resources
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet_Shop_Management_System.CustomerForm.resources
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet_Shop_Management_System.CustomerModule.resources
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet_Shop_Management_System.Dashboard.resources
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet_Shop_Management_System.LoginForm.resources
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet_Shop_Management_System.MainForm.resources
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet_Shop_Management_System.ProductForm.resources
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet_Shop_Management_System.ProductModule.resources
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet_Shop_Management_System.Properties.Resources.resources
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet_Shop_Management_System.SplashForm.resources
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet_Shop_Management_System.UserForm.resources
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet_Shop_Management_System.UserModule.resources
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Postal management system.csproj.GenerateResource.cache
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Postal management system.csproj.CoreCompileInputs.cache
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet Shop Management System.exe.manifest
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet Shop Management System.application
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Postal management system.csproj.CopyComplete
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet Shop Management System.exe
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet Shop Management System.pdb
+D:\Pet Shop Management System\Pet Shop Management System\obj\Debug\Pet_Shop_Management_System.reciept.resources
